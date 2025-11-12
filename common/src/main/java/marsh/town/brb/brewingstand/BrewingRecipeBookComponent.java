@@ -87,8 +87,8 @@ public class BrewingRecipeBookComponent extends GenericRecipeBookComponent<Brewi
         ItemStack inputStack;
         if (this.selectedTab.getCategory() == BetterRecipeBook.BREWING_SPLASH_POTION) {
             inputStack = new ItemStack(Items.SPLASH_POTION);
-        } else if (this.selectedTab.getCategory() == BetterRecipeBook.BREWING_LINGERING_POTION) {
-            inputStack = new ItemStack(Items.LINGERING_POTION);
+//        } else if (this.selectedTab.getCategory() == BetterRecipeBook.BREWING_LINGERING_POTION) {
+//            inputStack = new ItemStack(Items.LINGERING_POTION);
         } else {
             inputStack = new ItemStack(Items.POTION);
         }
