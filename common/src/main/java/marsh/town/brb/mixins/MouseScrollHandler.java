@@ -1,4 +1,3 @@
-// common/src/main/java/marsh/town/brb/mixins/MouseScrollHandler.java
 package marsh.town.brb.mixins;
 
 import com.mojang.blaze3d.platform.Window;
